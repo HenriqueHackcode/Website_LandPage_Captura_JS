@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@use "abstracts/helpers";
+
+// 3. Base stuff
+@use "base/base";
+@use "base/typography";
+
+// 4. Layout-related sections
+@use "layout/layout";
+
+// 5. Components
+@use "components/button";
+@use "components/caixa";
+@use "components/passo";
+@use "components/footer";
+@use "components/popup";
+
+// 6. Page-specific styles
+@use "pages/inscricao";

@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+@use "../abstracts/helpers.scss" as h;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include h.respond(big) {
+    font-size: 56.25%;
+  }
+
+  @include h.respond(medium) {
+    font-size: 50%;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}

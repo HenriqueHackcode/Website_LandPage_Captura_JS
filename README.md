@@ -3,7 +3,7 @@
 
 » É um projeto acadêmico, com intuito de masterizar as principais funcionalidades do pré-processador de css o SASS.
 
-» Aprendizados como: Variáveis, Aninhamento, Mixins, Herança (@extend - @use).
+» Aprendizados como: Variáveis, Aninhamento, Mixins e Herança.
 
 
 » Deploy do Projeto realizado no servidor Netfly.
